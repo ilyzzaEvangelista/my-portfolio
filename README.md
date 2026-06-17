@@ -22,13 +22,18 @@ npm run preview
 
 ## Deploy to GitHub Pages
 
-Pushes to `main` automatically deploy via GitHub Actions.
+Pushes to `main` automatically build and deploy to the `gh-pages` branch.
 
-To build locally the same way GitHub Pages does:
+### One-time setup
 
-```bash
-GITHUB_PAGES=true npm run build
-```
+1. Open **Settings → Pages** in your repo  
+   [github.com/ilyzzaEvangelista/my-portfolio/settings/pages](https://github.com/ilyzzaEvangelista/my-portfolio/settings/pages)
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Choose branch **`gh-pages`** and folder **`/ (root)`**
+4. Save — your site will be live at  
+   [ilyzzaevangelista.github.io/my-portfolio](https://ilyzzaevangelista.github.io/my-portfolio/)
+
+After the first successful workflow run, the `gh-pages` branch will appear automatically.
 
 ## Project Structure
 
