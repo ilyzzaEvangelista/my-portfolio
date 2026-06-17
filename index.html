@@ -1,6 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
+    <script>
+      (function () {
+        var saved = localStorage.getItem('theme');
+        document.documentElement.setAttribute('data-theme', saved === 'dark' || saved === 'light' ? saved : 'light');
+      })();
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/icon.png" />
     <link rel="apple-touch-icon" href="/icon.png" />

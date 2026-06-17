@@ -44,8 +44,8 @@ const skillCategories = [
           :key="category.title"
           class="glass-card p-6 hover:-translate-y-0.5"
         >
-          <h3 class="font-display font-semibold text-white mb-4 flex items-center gap-2">
-            <span class="w-1.5 h-1.5 rounded-full bg-primary" />
+          <h3 class="font-display font-semibold text-heading mb-4 flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-[var(--color-primary)]" />
             {{ category.title }}
           </h3>
           <div class="flex flex-wrap gap-2">

@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import { Download } from '@lucide/vue'
+import ThemeToggle from './ThemeToggle.vue'
 
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -30,16 +30,16 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     <nav
       class="max-w-5xl mx-auto flex items-center justify-between px-5 py-3 rounded-2xl transition-all duration-300"
       :class="isScrolled
-        ? 'glass-card shadow-lg shadow-black/20'
+        ? 'glass-card'
         : 'bg-transparent border border-transparent'"
     >
       <a href="#home" class="flex items-center gap-3 group">
         <img
           src="/icon.png"
           alt="Ilyzza Evangelista"
-          class="w-9 h-9 rounded-full ring-2 ring-primary/20 group-hover:ring-primary/50 transition-all"
+          class="w-9 h-9 rounded-full icon-ring group-hover:opacity-90 transition-all"
         />
-        <span class="font-display font-bold text-white hidden sm:block">Ilyzza</span>
+        <span class="font-display font-bold text-heading hidden sm:block">Ilyzza</span>
       </a>
 
       <div class="hidden lg:flex items-center gap-1">
@@ -47,13 +47,15 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
           v-for="link in navLinks"
           :key="link.href"
           :href="link.href"
-          class="px-4 py-2 text-sm font-medium text-slate-400 hover:text-white rounded-lg hover:bg-white/5 transition-colors"
+          class="nav-link"
         >
           {{ link.label }}
         </a>
       </div>
 
       <div class="flex items-center gap-2">
+        <ThemeToggle />
+
         <a
           href="/EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
           download="EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
@@ -64,7 +66,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         </a>
 
         <button
-          class="lg:hidden p-2 text-slate-400 hover:text-white rounded-lg"
+          class="lg:hidden p-2 text-muted hover:text-heading rounded-lg"
           aria-label="Toggle menu"
           @click="mobileOpen = !mobileOpen"
         >
@@ -86,7 +88,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         v-for="link in navLinks"
         :key="link.href"
         :href="link.href"
-        class="block px-3 py-2.5 text-sm font-medium text-slate-400 hover:text-white rounded-lg hover:bg-white/5"
+        class="block nav-link"
         @click="closeMobile"
       >
         {{ link.label }}
