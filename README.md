@@ -1,6 +1,8 @@
-# Parth Variya — Portfolio
+# Ilyzza Evangelista — Portfolio
 
 A modern single-page portfolio built with **Vue 3**, **Vite**, **Tailwind CSS v4**, and **Lucide icons**.
+
+**Live site:** [ilyzzaevangelista.github.io/my-portfolio](https://ilyzzaevangelista.github.io/my-portfolio/)
 
 ## Getting Started
 
@@ -18,23 +20,34 @@ npm run build
 npm run preview
 ```
 
+## Deploy to GitHub Pages
+
+Pushes to `main` automatically deploy via GitHub Actions.
+
+To build locally the same way GitHub Pages does:
+
+```bash
+GITHUB_PAGES=true npm run build
+```
+
 ## Project Structure
 
 ```
 src/
-├── App.vue              # Main layout
+├── App.vue
 ├── components/
-│   ├── Navbar.vue       # Fixed navigation
-│   ├── Hero.vue         # Hero section with floating cubes
-│   ├── About.vue        # About me + stats
-│   ├── Skills.vue       # Skills grid
-│   ├── Projects.vue     # Project cards
-│   ├── Certificates.vue # Certificate cards
-│   ├── Contact.vue      # Contact form + social links
-│   ├── Footer.vue       # Resume CTA + copyright
+│   ├── Navbar.vue
+│   ├── Hero.vue
+│   ├── About.vue
+│   ├── Skills.vue
+│   ├── Experience.vue
+│   ├── Projects.vue
+│   ├── Certificates.vue
+│   ├── Contact.vue
+│   ├── Footer.vue
 │   ├── SectionHeading.vue
 │   └── SocialIcon.vue
-└── style.css            # Tailwind + custom animations
+└── style.css
 ```
 
 ## Customize
