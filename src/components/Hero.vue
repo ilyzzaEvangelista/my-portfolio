@@ -58,7 +58,7 @@ const stack = ['Vue 3', 'Nuxt 3', 'TypeScript', 'Laravel', 'Pinia']
 
           Hi, I'm <span class="text-heading font-semibold">Ilyzza Evangelista</span> — a Frontend Developer
 
-          with 4+ years building enterprise web applications using Vue.js, Nuxt.js, Vuetify, and Laravel APIs.
+          with 4 years building enterprise web applications using Vue.js, Nuxt.js, Vuetify, and Laravel APIs.
 
         </p>
 
