@@ -36,7 +36,7 @@ const skillCategories = [
 <template>
   <section id="skills" class="py-28 px-6 section-alt">
     <div class="max-w-6xl mx-auto">
-      <SectionHeading number="02" title="Technical Skills" />
+      <SectionHeading number="03" title="Technical Skills" />
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         <div

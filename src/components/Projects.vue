@@ -35,7 +35,7 @@ const projects = [
 <template>
   <section id="projects" class="py-28 px-6 section-alt">
     <div class="max-w-6xl mx-auto">
-      <SectionHeading number="03" title="Featured Projects" />
+      <SectionHeading number="04" title="Featured Projects" />
 
       <div class="grid md:grid-cols-2 gap-6">
         <article
