@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Download } from '@lucide/vue'
+
+const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
 </script>
 
 <template>
@@ -17,7 +19,7 @@ import { Download } from '@lucide/vue'
         </p>
         <div class="flex flex-wrap justify-center gap-4">
           <a
-            href="/EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
+            :href="resumeUrl"
             download="EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
             target="_blank"
             rel="noopener noreferrer"

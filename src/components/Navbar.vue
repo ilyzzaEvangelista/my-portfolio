@@ -3,6 +3,8 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import { Download } from '@lucide/vue'
 import ThemeToggle from './ThemeToggle.vue'
 
+const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
+
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
@@ -58,7 +60,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         <ThemeToggle />
 
         <a
-          href="/EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
+          :href="resumeUrl"
           download="EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
           class="hidden sm:inline-flex btn-primary !py-2 !px-4 !text-xs"
         >
@@ -95,7 +97,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         {{ link.label }}
       </a>
       <a
-        href="/EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
+        :href="resumeUrl"
         download="EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
         class="block px-3 py-2.5 text-sm font-medium text-primary"
         @click="closeMobile"

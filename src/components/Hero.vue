@@ -1,11 +1,8 @@
 <script setup lang="ts">
-
 import { ArrowDown, Download } from '@lucide/vue'
 
-
-
 const stack = ['Vue 3', 'Nuxt 3', 'TypeScript', 'Laravel', 'Pinia']
-
+const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
 </script>
 
 
@@ -80,7 +77,7 @@ const stack = ['Vue 3', 'Nuxt 3', 'TypeScript', 'Laravel', 'Pinia']
 
           <a
 
-            href="/EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
+            :href="resumeUrl"
 
             download="EVANGELISTA-JAN-ILYZZA-RESUME.pdf"
 
