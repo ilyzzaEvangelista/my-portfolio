@@ -21,7 +21,7 @@ const experiences = [
     tags: ['Vue.js 3', 'Nuxt.js 3', 'TypeScript', 'Vuetify', 'Pinia', 'Laravel', 'WebSockets'],
   },
   {
-    title: 'Software Engineer II',
+    title: 'Software Engineer I',
     role: 'Frontend Developer',
     company: 'Suiterus Technologies Inc.',
     period: 'May 2022 – July 2024',
