@@ -7,7 +7,7 @@ const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
 <template>
   <footer>
     <div class="relative py-20 px-6 overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-r from-sky-500/10 via-indigo-500/10 to-violet-500/10" />
+      <div class="absolute inset-0 bg-gradient-to-r from-cyan-400/10 via-purple-500/10 to-fuchsia-500/10" />
       <div class="absolute inset-0 border-t footer-border" />
 
       <div class="relative max-w-3xl mx-auto text-center">
