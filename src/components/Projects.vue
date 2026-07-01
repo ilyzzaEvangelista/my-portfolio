@@ -10,6 +10,8 @@ import irms1 from '../assets/irms/image.png'
 import irms2 from '../assets/irms/image 2.png'
 import jobPortal1 from '../assets/job-portal/1.jpg'
 import jobPortal2 from '../assets/job-portal/2.jpg'
+import inventory1 from '../assets/inventory/1.png'
+import inventory2 from '../assets/inventory/2.png'
 import SectionHeading from './SectionHeading.vue'
 
 const projects = [
@@ -20,8 +22,20 @@ const projects = [
     imageHoverLabel: 'HR modules',
     title: 'HR Management System',
     description:
-      'Enterprise HRMS supporting 1,000+ active users with 10,000+ monthly HR transactions. Features employee management, payroll, leave tracking, real-time notifications via WebSockets, and role-based access control.',
-    tags: ['Vue.js 3', 'Nuxt.js 3', 'TypeScript', 'Vuetify', 'Pinia', 'Laravel', 'WebSockets'],
+      'Enterprise HRMS supporting 1,000+ active users with 10,000+ monthly HR transactions. Features payroll, leave tracking, biometric integration (ZKTeco), LDAP/AD authentication, multi-database architecture, real-time via Redis + Pusher, and org-chart visualization with D3.js.',
+    tags: ['Nuxt 2', 'Vue 2', 'JavaScript', 'Vuetify 2', 'Vuex', 'Laravel 8', 'Redis', 'Pusher', 'D3.js', 'Docker'],
+    link: null,
+    badge: 'Enterprise',
+  },
+  {
+    image: inventory1,
+    imageHover: inventory2,
+    imageLabel: 'Inventory list',
+    imageHoverLabel: 'Item details',
+    title: 'Inventory Management System',
+    description:
+      'Enterprise inventory platform tracking 5,000+ records across multiple warehouses. Features stock monitoring, item categorization, Excel/PDF reporting, and real-time stock updates shared across the internal package ecosystem.',
+    tags: ['Nuxt 2', 'Vue 2', 'JavaScript', 'Vuetify 2', 'Vuex', 'Laravel 8', 'Redis', 'Pusher', 'ExcelJS'],
     link: null,
     badge: 'Enterprise',
   },
@@ -30,10 +44,10 @@ const projects = [
     imageHover: irms2,
     imageLabel: 'Request list',
     imageHoverLabel: 'Request details',
-    title: 'IT Resource Management System',
+    title: 'Information Resource Management System',
     description:
-      'IT service request platform handling 3,000+ service requests. Enables ticket creation, resource allocation, real-time status tracking, and reporting for IT operations teams.',
-    tags: ['Vue.js 3', 'Nuxt.js 3', 'TypeScript', 'Vuetify', 'Pinia', 'Laravel Echo', 'Pusher'],
+      'Enterprise IRMS handling 3,000+ IT service requests. Features ticket management, inventory tracking, real-time updates via Laravel Echo + Pusher, Excel/PDF exports, drag-and-drop workflows, and custom internal packages for Inventory and Issue management.',
+    tags: ['Nuxt 3', 'Vue 3', 'TypeScript', 'Vuetify 3', 'Pinia', 'Laravel 12', 'Laravel Echo', 'Pusher', 'ApexCharts'],
     link: null,
     badge: 'Enterprise',
   },
@@ -44,8 +58,8 @@ const projects = [
     imageHoverLabel: 'Application flow',
     title: 'Job Portal',
     description:
-      'Full-featured recruitment portal supporting job postings, applicant tracking, resume management, and employee onboarding workflows for HR and hiring teams.',
-    tags: ['Vue.js 2', 'Nuxt.js 2', 'JavaScript', 'Vuetify', 'Laravel', 'Axios'],
+      'Full-featured recruitment portal with job postings, applicant tracking, resume management, and onboarding workflows. Features real-time notifications via Laravel Reverb, OAuth2 authentication, payment integration with Xendit, and multi-language support.',
+    tags: ['Nuxt 4', 'Vue 3', 'TypeScript', 'Vuetify 4', 'Pinia', 'Laravel 12', 'Laravel Reverb', 'Sanctum', 'Xendit'],
     link: null,
     badge: 'Enterprise',
   },
