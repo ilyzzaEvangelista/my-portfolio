@@ -55,7 +55,7 @@ const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
 
           Hi, I'm <span class="text-heading font-semibold">Ilyzza Evangelista</span> — a Frontend Developer
 
-          with 4 years building enterprise web applications using Vue.js, Nuxt.js, Vuetify, and Laravel APIs.
+          with 4+ years building enterprise web applications using Vue.js, Nuxt.js, Vuetify, and Laravel APIs.
 
         </p>
 

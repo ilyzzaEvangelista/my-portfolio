@@ -3,7 +3,7 @@ import { Calendar, Layers, Building2, Sparkles } from '@lucide/vue'
 import SectionHeading from './SectionHeading.vue'
 
 const stats = [
-  { value: '4', label: 'Years in industry', icon: Calendar },
+  { value: '4+', label: 'Years in industry', icon: Calendar },
   { value: 'Vue 3', label: 'Primary stack', icon: Layers },
   { value: 'Enterprise', label: 'App focus', icon: Building2 },
 ]
@@ -40,7 +40,7 @@ const domains = [
 
               <p>
                 I'm a <span class="text-heading font-semibold">Frontend Developer</span> with
-                <span class="text-heading font-semibold">4 years of experience</span> building enterprise web
+                <span class="text-heading font-semibold">4+ years of experience</span> building enterprise web
                 applications using
                 <span class="text-primary font-medium">Vue.js, Nuxt.js, Vuetify</span>, and
                 <span class="text-primary font-medium">Laravel APIs</span>.
