@@ -97,36 +97,12 @@ const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
 
 
 
-      <div class="relative flex justify-center lg:justify-end">
-
-        <div class="relative animate-float">
-
-          <div
-
-            class="absolute inset-0 rounded-full bg-gradient-to-br from-[var(--color-glow-1)] to-[var(--color-glow-2)] blur-3xl scale-110"
-
-          />
-
-          <img
-
-            src="/icon.png"
-
-            alt="Ilyzza Evangelista"
-
-            class="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full object-cover icon-ring shadow-2xl"
-
-          />
-
-        </div>
-
-        <!-- <div class="absolute -top-2 -right-2 glass-card px-5 py-3 hidden sm:block">
-
-          <p class="text-sm font-display font-semibold text-heading">Vue.js</p>
-
-          <p class="text-xs text-muted">Primary stack</p>
-
-        </div> -->
-
+      <div class="flex justify-center lg:justify-end">
+        <img
+          src="/icon.png"
+          alt="Ilyzza Evangelista"
+          class="w-64 sm:w-72 lg:w-80"
+        />
       </div>
 
     </div>
