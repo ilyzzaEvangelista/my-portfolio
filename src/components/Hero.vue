@@ -119,13 +119,13 @@ const resumeUrl = `${import.meta.env.BASE_URL}EVANGELISTA-JAN-ILYZZA-RESUME.pdf`
 
         </div>
 
-        <div class="absolute -top-2 -right-2 glass-card px-5 py-3 hidden sm:block">
+        <!-- <div class="absolute -top-2 -right-2 glass-card px-5 py-3 hidden sm:block">
 
           <p class="text-sm font-display font-semibold text-heading">Vue.js</p>
 
           <p class="text-xs text-muted">Primary stack</p>
 
-        </div>
+        </div> -->
 
       </div>
 
