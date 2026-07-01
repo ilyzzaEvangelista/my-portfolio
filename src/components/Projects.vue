@@ -35,7 +35,7 @@ const projects = [
     title: 'Inventory Management System',
     description:
       'Enterprise inventory platform tracking 5,000+ records across multiple warehouses. Features stock monitoring, item categorization, Excel/PDF reporting, and real-time stock updates shared across the internal package ecosystem.',
-    tags: ['Nuxt 2', 'Vue 2', 'JavaScript', 'Vuetify 2', 'Vuex', 'Laravel 8', 'Redis', 'Pusher', 'ExcelJS'],
+    tags: ['Nuxt 3', 'Vue 3', 'TypeScript', 'Vuetify 3', 'Pinia', 'Laravel 12', 'Laravel Echo', 'Pusher', 'ApexCharts'],
     link: null,
     badge: 'Enterprise',
   },

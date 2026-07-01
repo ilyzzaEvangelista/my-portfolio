@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Monitor, Code2, Layers, Radio, BarChart2, Wrench, Server, GitBranch } from '@lucide/vue'
+import { Monitor, Code2, Layers, Radio, BarChart2, Server, GitBranch } from '@lucide/vue'
 import SectionHeading from './SectionHeading.vue'
 
 const coreStack = [
@@ -15,7 +15,7 @@ const skillCategories = [
   {
     icon: Monitor,
     title: 'Frontend Frameworks',
-    items: ['Vue 2', 'Vue 3', 'Nuxt 2', 'Nuxt 3', 'Nuxt 4', 'Vuetify 2', 'Vuetify 3', 'Vuetify 4'],
+    items: ['Vue 2/3', 'Nuxt 2/3/4', 'Vuetify 2/3/4'],
   },
   {
     icon: Code2,
@@ -25,17 +25,17 @@ const skillCategories = [
   {
     icon: Layers,
     title: 'State Management',
-    items: ['Pinia', 'pinia-plugin-persistedstate', 'Vuex 3', 'Vue Composition API'],
+    items: ['Pinia', 'Vuex 3 / 4', 'Composition API'],
   },
   {
     icon: Radio,
     title: 'Real-time & APIs',
-    items: ['Laravel Echo', 'Pusher', 'Laravel Reverb', 'Socket.io', 'WebSockets', 'Axios', 'REST API'],
+    items: ['Laravel Echo', 'Pusher', 'Socket.io', 'WebSockets', 'Axios', 'REST API'],
   },
   {
     icon: BarChart2,
     title: 'Data Visualization',
-    items: ['ApexCharts', 'Chart.js', 'D3.js', 'd3-org-chart', 'ECharts'],
+    items: ['ApexCharts', 'Chart.js'],
   },
   {
     icon: Server,
@@ -43,14 +43,9 @@ const skillCategories = [
     items: ['Laravel 8', 'Laravel 12', 'Sanctum', 'Passport (OAuth2)', 'JWT Auth', 'Spatie Permission', 'Redis'],
   },
   {
-    icon: Wrench,
-    title: 'Tools & Productivity',
-    items: ['Vite', 'Webpack 4', 'TipTap', 'ExcelJS', 'jsPDF', 'Docker', 'Docker Compose'],
-  },
-  {
     icon: GitBranch,
     title: 'Practices & Workflow',
-    items: ['Git', 'GitLab CI', 'Agile / Scrum', 'Code Review', 'Performance Optimization', 'Cross-Browser Compatibility'],
+    items: ['Git', 'Agile / Scrum', 'Code Review', 'Performance Optimization', 'Cross-Browser Compatibility'],
   },
 ]
 </script>
