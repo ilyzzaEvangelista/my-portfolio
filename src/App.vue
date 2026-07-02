@@ -5,6 +5,7 @@ import About from './components/About.vue'
 import Experience from './components/Experience.vue'
 import Skills from './components/Skills.vue'
 import Projects from './components/Projects.vue'
+import ProjectGallery from './components/ProjectGallery.vue'
 import Certificates from './components/Certificates.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
@@ -19,10 +20,11 @@ import Footer from './components/Footer.vue'
       <Experience />
       <Skills />
       <Projects />
+      <ProjectGallery />
       <Certificates />
       <Contact />
     </main>
     <Footer />
   </div>
 </template>
-
+

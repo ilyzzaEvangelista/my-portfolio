@@ -30,7 +30,7 @@ function handleSubmit() {
 <template>
   <section id="contact" class="py-28 px-6 section-alt">
     <div class="max-w-6xl mx-auto">
-      <SectionHeading number="06" title="Let's Connect" />
+      <SectionHeading number="07" title="Let's Connect" />
 
       <div class="grid lg:grid-cols-2 gap-10">
         <div class="space-y-4">

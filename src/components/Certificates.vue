@@ -36,7 +36,7 @@ const certificates = [
 <template>
   <section id="certificates" class="py-28 px-6">
     <div class="max-w-6xl mx-auto">
-      <SectionHeading number="05" title="Certificates" />
+      <SectionHeading number="06" title="Certificates" />
 
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
         <div
