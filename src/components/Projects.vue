@@ -7,10 +7,6 @@ import dental1 from '../assets/appointment/DENTAL-1.png'
 import dental2 from '../assets/appointment/DENTAL-2.png'
 import dental3 from '../assets/appointment/DENTAL-3.png'
 import dental4 from '../assets/appointment/DENTAL-4.png'
-import hr1 from '../assets/hr/1.jpg'
-import hr2 from '../assets/hr/2.jpg'
-import hr3 from '../assets/hr/3.jpg'
-import hr4 from '../assets/hr/4.jpg'
 import inventory1 from '../assets/inventory/1.png'
 import inventory2 from '../assets/inventory/2.png'
 import irms1 from '../assets/irms/image.png'
@@ -24,20 +20,6 @@ import lending2 from '../assets/lending/LENDING-2.png'
 import lending3 from '../assets/lending/LENDING-3.png'
 
 const projects = [
-  {
-    images: [
-      { src: hr1, label: 'Dashboard' },
-      { src: hr2, label: 'HR Modules' },
-      { src: hr3, label: 'Employee Records' },
-      { src: hr4, label: 'Reports' },
-    ],
-    title: 'HR Management System',
-    description:
-      'Enterprise HRMS supporting 1,000+ active users with 10,000+ monthly HR transactions. Features payroll, leave tracking, biometric integration (ZKTeco), LDAP/AD authentication, multi-database architecture, real-time via Redis + Pusher, and org-chart visualization with D3.js.',
-    tags: ['Nuxt 2', 'Vue 2', 'JavaScript', 'Vuetify 2', 'Vuex', 'Laravel 8', 'Redis', 'Pusher', 'D3.js', 'Docker'],
-    link: null,
-    badge: 'Enterprise',
-  },
   {
     images: [
       { src: inventory1, label: 'Inventory List' },
