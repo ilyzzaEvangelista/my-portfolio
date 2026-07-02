@@ -38,9 +38,9 @@ const projects = [
       { src: irms2, label: 'Request Details' },
       { src: irms3, label: 'Dashboard' },
     ],
-    title: 'IT Resource Management System',
+    title: 'Information Resource Management System',
     description:
-      'Enterprise IRMS handling 3,000+ IT service requests. Features ticket management, inventory tracking, real-time updates via Laravel Echo + Pusher, Excel/PDF exports, drag-and-drop workflows, and custom internal packages for Inventory and Issue management.',
+      'Enterprise IRMS handling 3,000+ information service requests. Features ticket management, inventory tracking, real-time updates via Laravel Echo + Pusher, Excel/PDF exports and custom internal packages for Inventory and Ticket management.',
     tags: ['Nuxt 3', 'Vue 3', 'TypeScript', 'Vuetify 3', 'Pinia', 'Laravel 12', 'Laravel Echo', 'Pusher', 'ApexCharts'],
     link: null,
     badge: 'Enterprise',
